@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TwitterAPITesting" parallel="false">
+
+    <test name="APITesting">
+        <parameter name="AuthTokenEndPoint" value="http://5a8208f12f37a900124ecc9d.mockapi.io/api/v1/autentication"/>
+        <classes>
+            <class name="TestSetup.TestSetup"/>
+        </classes>
+    </test>
+
+</suite>
