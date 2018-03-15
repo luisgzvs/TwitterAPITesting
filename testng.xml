@@ -3,7 +3,7 @@
 <suite name="TwitterAPITesting" parallel="false">
 
     <test name="APITesting">
-        <parameter name="AuthTokenEndPoint" value="http://5a8208f12f37a900124ecc9d.mockapi.io/api/v1/autentication"/>
+        <parameter name="ExecutionType" value="remote"/>
         <classes>
             <class name="TestSetup.TestSetup"/>
         </classes>
